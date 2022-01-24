@@ -1,0 +1,14 @@
+﻿<Window x:Class="english_wpf.Caroussel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:english_wpf"
+        mc:Ignorable="d"
+        Title="Caroussel" Height="116" Width="427">
+    <Grid Loaded="Grid_Loaded">
+        <Label x:Name="courlabel1" Content="Label" HorizontalAlignment="Center" VerticalAlignment="Top" Width="407" FontSize="18" Margin="0,4,0,0" FontWeight="Bold"/>
+        <Label x:Name="courlabel2" Content="Label" HorizontalAlignment="Center" VerticalAlignment="Top" Width="407" FontSize="18" Margin="0,39,0,0" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

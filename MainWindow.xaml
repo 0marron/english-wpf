@@ -1,0 +1,31 @@
+﻿<Window x:Class="english_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:english_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="911" Closed="Window_Closed">
+    <Grid>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="43,91,0,0" VerticalAlignment="Top" Height="136" Width="304" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Button" HorizontalAlignment="Left" Margin="388,91,0,0" VerticalAlignment="Top" Height="136" Width="304" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Button" HorizontalAlignment="Left" Margin="43,262,0,0" VerticalAlignment="Top" Height="135" Width="304" Click="button4_Click"/>
+        <Button x:Name="button5" Content="Button" HorizontalAlignment="Left" Margin="388,262,0,0" VerticalAlignment="Top" Height="135" Width="304" Click="button5_Click"/>
+        <TextBox x:Name="rusWordTextbox" HorizontalAlignment="Left" Margin="517,48,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="engWordTextbox" HorizontalAlignment="Left" Margin="517,71,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button8" Content="Button" HorizontalAlignment="Left" Margin="642,48,0,0" VerticalAlignment="Top" Height="41" Width="50" Click="button8_Click"/>
+        <ComboBox x:Name="combobox" HorizontalAlignment="Left" Margin="781,48,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem IsSelected="True">Oxford5000.db</ComboBoxItem>
+            <ComboBoxItem>10000words.db</ComboBoxItem>
+            <ComboBoxItem>511Verbs.db</ComboBoxItem>
+            <ComboBoxItem>IrregularVerbs.db</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="button7" Content="Карусель" HorizontalAlignment="Left" Margin="715,91,0,0" VerticalAlignment="Top" Click="button7_Click" Height="306" Width="57"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="43,48,0,0" VerticalAlignment="Top" Width="304"/>
+        <Label x:Name="label2" Content="Attempts" HorizontalAlignment="Left" Margin="781,75,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="attempts_label" Content="0" HorizontalAlignment="Left" Margin="846,75,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Words" HorizontalAlignment="Left" Margin="781,101,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="wordsInBase" Content="0" HorizontalAlignment="Left" Margin="846,101,0,0" VerticalAlignment="Top" Width="54"/>
+
+    </Grid>
+</Window>
